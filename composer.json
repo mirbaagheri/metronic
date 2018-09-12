@@ -1,0 +1,25 @@
+{
+    "name": "mirbaagheri/metronic",
+    "description": "a library for using metronic theme in laravel 5",
+    "keywords": [
+        "mirbaagheri", "theme", "metronic", "bootstrap theme",
+		"bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sayed Mostafa Mirbagheri",
+            "email": "mostafa.miri65@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+			"Mirbaagheri\\Metronic\\": "vendor/mirbaagheri/metronic/src/"
+        }
+    }
+}
