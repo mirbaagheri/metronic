@@ -21,5 +21,6 @@
         "psr-4": {
 			"Mirbaagheri\\Metronic\\": "vendor/mirbaagheri/metronic/src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
