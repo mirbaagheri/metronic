@@ -18,7 +18,6 @@ use Mirbaagheri\Metronic\Metronic;
 
 class MetronicServiceProvider extends ServiceProvider
 {
-
     public function register()
     {
         $this->prepareResources();
@@ -58,7 +57,6 @@ class MetronicServiceProvider extends ServiceProvider
             return $sidebar;
         });
     }
-
 
     protected function registerHeader()
     {
@@ -136,7 +134,7 @@ class MetronicServiceProvider extends ServiceProvider
     {
         $this->app->singleton('metronic', function ($app) {
 
-            $mirMetronic = new Metronic(
+            $metronic = new Metronic(
 
                 $app['metronic.header'],
                 $app['metronic.sidebar'],
@@ -151,9 +149,7 @@ class MetronicServiceProvider extends ServiceProvider
 
             );
 
-            return $mirMetronic;
+            return $metronic;
         });
     }
 }
-
-?>

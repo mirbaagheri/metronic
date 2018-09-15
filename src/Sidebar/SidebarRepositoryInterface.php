@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Sidebar;
+namespace Mirbaagheri\Metronic\Sidebar;
 
 
 interface SidebarRepositoryInterface

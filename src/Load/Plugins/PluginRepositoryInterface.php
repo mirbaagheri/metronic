@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Load\Plugins;
+namespace Mirbaagheri\Metronic\Load\Plugins;
 
 
 interface PluginRepositoryInterface

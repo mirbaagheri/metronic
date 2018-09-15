@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Load\Styles;
+namespace Mirbaagheri\Metronic\Load\Styles;
 
 
 interface StyleRepositoryInterface

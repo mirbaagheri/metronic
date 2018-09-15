@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Render;
+namespace Mirbaagheri\Metronic\Render;
 
 use Config;
 use File;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Header;
+namespace Mirbaagheri\Metronic\Header;
 
 
 interface HeaderRepositoryInterface

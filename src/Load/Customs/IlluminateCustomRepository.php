@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Customs;
+namespace Mirbaagheri\Metronic\Load\Customs;
 
 use Config;
 use InvalidArgumentException;
@@ -23,7 +23,7 @@ class IlluminateCustomRepository implements CustomRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     public function load($type,$arr,$app)

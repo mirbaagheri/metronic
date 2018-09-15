@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Layouts;
+namespace Mirbaagheri\Metronic\Load\Layouts;
 
 use Config;
 use InvalidArgumentException;
@@ -30,7 +30,7 @@ class IlluminateLayoutRepository implements LayoutRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     private function checkTheme($blockValue)

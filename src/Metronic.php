@@ -9,7 +9,7 @@ use Mirbaagheri\Metronic\Load\LoadRepositoryInterface;
     use Mirbaagheri\Metronic\Load\Plugins\PluginRepositoryInterface;
     use Mirbaagheri\Metronic\Load\Scripts\ScriptRepositoryInterface;
     use Mirbaagheri\Metronic\Load\Styles\StyleRepositoryInterface;
-    use Mirbaagheri\Metronic\Load\Customs\customRepositoryInterface;
+    use Mirbaagheri\Metronic\Load\Customs\CustomRepositoryInterface;
 use Mirbaagheri\Metronic\Render\RenderRepositoryInterface;
 use Mirbaagheri\Metronic\config\ConfigRepositoryInterface;
 
@@ -63,6 +63,7 @@ class Metronic
      * * * @param  \Mirbaagheri\Metronic\Load\Plugins\PluginRepositoryInterface  $plugins
      * * * @param  \Mirbaagheri\Metronic\Load\Scripts\ScriptRepositoryInterface  $scripts
      * * * @param  \Mirbaagheri\Metronic\Load\Styles\StyleRepositoryInterface    $styles
+     * * * @param  \Mirbaagheri\Metronic\Load\Customs\CustomRepositoryInterface   $customs
      * @param  \Mirbaagheri\Metronic\Render\RenderRepositoryInterface  $render
      * @param  \Mirbaagheri\Metronic\config\ConfigRepositoryInterface  mixed[] $config
      */

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Load;
+namespace Mirbaagheri\Metronic\Load;
 
 
 interface LoadRepositoryInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Plugins;
+namespace Mirbaagheri\Metronic\Load\Plugins;
 
 use Config;
 use InvalidArgumentException;
@@ -27,7 +27,7 @@ class IlluminatePluginRepository implements PluginRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     public function load($type,$name,$app)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Header;
+namespace Mirbaagheri\Metronic\Header;
 
 class IlluminateHeaderRepository implements HeaderRepositoryInterface
 {
@@ -164,7 +164,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
         {
         	$this->userDropdown .= '<li>
 							<a href="'.$item.'">
-							<i class="'.$content->icon.'"></i> '.trans('mirMetronic.'.$item.'').' </a>
+							<i class="'.$content->icon.'"></i> '.trans('metronic.'.$item.'').' </a>
 						</li>';
 		}
         $this->userDropdown .= '</ul></li><!-- END USER LOGIN DROPDOWN -->';

@@ -1,5 +1,5 @@
 <?php
-namespace Mirbaagheri\MirMetronic\Sidebar;
+namespace Mirbaagheri\Metronic\Sidebar;
 
 class IlluminateSidebarRepository implements SidebarRepositoryInterface
 {
@@ -90,7 +90,7 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 
 					$this->items.='<li '.$class.'>
 						<a href="'.$item.'">
-						<i class="'.$content->icon.'"></i>'.trans('mirMetronic.'.$item.'').'</a>
+						<i class="'.$content->icon.'"></i>'.trans('metronic.'.$item.'').'</a>
 					</li>';
 					?>
 

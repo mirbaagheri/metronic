@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load;
+namespace Mirbaagheri\Metronic\Load;
 
 use Config;
 use File;
@@ -39,7 +39,7 @@ class IlluminateLoadRepository implements LoadRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     private function loadDatabase($src = 'MetronicPackage/STEP6-Publish.json')

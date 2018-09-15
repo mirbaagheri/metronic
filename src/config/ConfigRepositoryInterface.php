@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\config;
+namespace Mirbaagheri\Metronic\config;
 
 
 interface ConfigRepositoryInterface

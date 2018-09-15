@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Styles;
+namespace Mirbaagheri\Metronic\Load\Styles;
 
 use Config;
 use File;
@@ -21,7 +21,7 @@ class IlluminateStyleRepository implements StyleRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     protected function globalMandatoryStyles()

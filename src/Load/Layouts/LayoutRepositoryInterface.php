@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Load\Layouts;
+namespace Mirbaagheri\Metronic\Load\Layouts;
 
 
 interface LayoutRepositoryInterface

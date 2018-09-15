@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Load\Customs;
+namespace Mirbaagheri\Metronic\Load\Customs;
 
 
 interface CustomRepositoryInterface

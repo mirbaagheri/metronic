@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\config;
+namespace Mirbaagheri\Metronic\config;
 
 use Config;
 use InvalidArgumentException;
@@ -13,7 +13,7 @@ class IlluminateConfigRepository implements ConfigRepositoryInterface
         {
             foreach($config as $key => $value)
             {
-                Config::set('mirbaagheri.mirmetronic.'.$key,$value);
+                Config::set('mirbaagheri.metronic.'.$key,$value);
             }
             return true;
         }

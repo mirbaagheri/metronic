@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Scripts;
+namespace Mirbaagheri\Metronic\Load\Scripts;
 
 use Config;
 use InvalidArgumentException;
@@ -24,7 +24,7 @@ class IlluminateScriptRepository implements ScriptRepositoryInterface
 
     private function loadConfig()
     {
-        $this->config = Config::get('mirbaagheri.mirmetronic');
+        $this->config = Config::get('mirbaagheri.metronic');
     }
 
     public function load($type,$name,$app)

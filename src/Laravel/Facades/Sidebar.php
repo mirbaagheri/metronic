@@ -1,5 +1,5 @@
 <?php
-namespace Mirbaagheri\MirMetronic\Laravel\Facades;
+namespace Mirbaagheri\Metronic\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

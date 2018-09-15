@@ -9,4 +9,3 @@ class Metronic extends Facade {
         return 'metronic';
     }
 }
-?>

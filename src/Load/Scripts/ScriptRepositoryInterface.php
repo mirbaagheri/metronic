@@ -1,6 +1,6 @@
 <?php
 
-namespace Mirbaagheri\MirMetronic\Load\Scripts;
+namespace Mirbaagheri\Metronic\Load\Scripts;
 
 
 interface ScriptRepositoryInterface

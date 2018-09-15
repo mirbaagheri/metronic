@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mirbaagheri\MirMetronic\Render;
+namespace Mirbaagheri\Metronic\Render;
 
 
 interface RenderRepositoryInterface
