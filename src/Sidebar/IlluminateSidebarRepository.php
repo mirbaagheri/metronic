@@ -92,9 +92,6 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 						<a href="'.$item.'">
 						<i class="'.$content->icon.'"></i>'.trans('metronic.'.$item.'').'</a>
 					</li>';
-					?>
-
-                    <?php
 				}
 			}
 	}
