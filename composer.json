@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-			"Mirbaagheri\\Metronic\\": "vendor/mirbaagheri/metronic/src/"
+			"Mirbaagheri\\Metronic\\": "src/"
         }
     },
     "minimum-stability": "stable"
