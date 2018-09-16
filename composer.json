@@ -22,5 +22,13 @@
 			"Mirbaagheri\\Metronic\\": "src/"
         }
     },
+    "extra": {
+        "component": "package",
+        "laravel": {
+            "providers": [
+                "Mirbaagheri\\SentinelMetronic\\Laravel\\MetronicServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
