@@ -2,6 +2,8 @@
 
 namespace Mirbaagheri\Metronic\Header;
 
+use Config;
+
 class IlluminateHeaderRepository implements HeaderRepositoryInterface
 {
 	public $Search				= true;
@@ -9,7 +11,11 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
 	public $data_toggle			= 'collapse';
 	public $data_target			= '.navbar-collapse';
 	public $SearchHtml;
-	protected $Dropdowns		= array();
+
+    private $config;
+    private $themeSrc;
+
+    protected $Dropdowns		= array();
 	protected $userDropdown;
 	protected $name;
 	protected $quickSidebar		= true;
@@ -46,28 +52,27 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
 	{
 		$this->Toggler = $value;
 	}
-	
-	public function Config($Config)
-	{
-		foreach($Config as $key=>$value)
-		{
-			$this->$key = $value;
-		}
-		
-	}
-	
+
+    private function loadConfig()
+    {
+        $this->config = Config::get('mirbaagheri.metronic');
+    }
+
+
 	// Load sidebar items from DB/JSON
 	public function Load($obj)
 	{
-		return $this->dropdownUser($obj);
+        $this->loadConfig();
+        $this->themeSrc = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'];
+	    return $this->dropdownUser($obj);
 	}
 	
 	// Define Logo
 	public function Logo()
 	{
-		return '<div class="page-logo">
+	    return '<div class="page-logo">
                     <a href="/">
-                        <img src="themes/metronic/rtl/assets/layouts/layout4/img/logo-light.png" alt="logo" class="logo-default" />
+                        <img src="'.$this->themeSrc.'/assets/layouts/layout4/img/logo-light.png" alt="logo" class="logo-default" />
                     </a>
                     <div class="menu-toggler sidebar-toggler">
                         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
@@ -159,7 +164,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                     <span class="username username-hide-on-mobile"> '.$this->name.' </span>
                                     <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-                                    <img alt="" class="img-circle" src="themes/metronic/rtl/assets/layouts/layout4/img/avatar9.jpg" /> </a><ul class="dropdown-menu dropdown-menu-default">';
+                                    <img alt="" class="img-circle" src="'.$this->themeSrc.'/assets/layouts/layout4/img/avatar9.jpg" /> </a><ul class="dropdown-menu dropdown-menu-default">';
 		foreach(json_decode($obj) as $item => $content)
         {
         	$this->userDropdown .= '<li>
@@ -227,14 +232,14 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="badge badge-success">8</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Bob Nilson</h4>
                                                 <div class="media-heading-sub"> Project Manager </div>
                                             </div>
                                         </li>
                                         <li class="media">
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar1.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar1.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Nick Larson</h4>
                                                 <div class="media-heading-sub"> Art Director </div>
@@ -244,14 +249,14 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="badge badge-danger">3</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar4.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar4.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Deon Hubert</h4>
                                                 <div class="media-heading-sub"> CTO </div>
                                             </div>
                                         </li>
                                         <li class="media">
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar2.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar2.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Wong</h4>
                                                 <div class="media-heading-sub"> CEO </div>
@@ -264,7 +269,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="badge badge-warning">2</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar6.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar6.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Lara Kunis</h4>
                                                 <div class="media-heading-sub"> CEO, Loop Inc </div>
@@ -275,7 +280,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="label label-sm label-success">new</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar7.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar7.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ernie Kyllonen</h4>
                                                 <div class="media-heading-sub"> Project Manager,
@@ -283,7 +288,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             </div>
                                         </li>
                                         <li class="media">
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar8.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar8.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Lisa Stone</h4>
                                                 <div class="media-heading-sub"> CTO, Keort Inc </div>
@@ -294,14 +299,14 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="badge badge-success">7</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar9.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar9.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Deon Portalatin</h4>
                                                 <div class="media-heading-sub"> CFO, H&D LTD </div>
                                             </div>
                                         </li>
                                         <li class="media">
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar10.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar10.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Irina Savikova</h4>
                                                 <div class="media-heading-sub"> CEO, Tizda Motors Inc </div>
@@ -311,7 +316,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                             <div class="media-status">
                                                 <span class="badge badge-danger">4</span>
                                             </div>
-                                            <img class="media-object" src="themes/metronic/rtl/assets/layouts/layout/img/avatar11.jpg" alt="...">
+                                            <img class="media-object" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar11.jpg" alt="...">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Maria Gomez</h4>
                                                 <div class="media-heading-sub"> Manager, Infomatic Inc </div>
@@ -328,7 +333,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                         </div>
                                         <div class="page-quick-sidebar-chat-user-messages">
                                             <div class="post out">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Bob Nilson</a>
@@ -337,7 +342,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post in">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar2.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar2.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Ella Wong</a>
@@ -346,7 +351,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post out">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Bob Nilson</a>
@@ -355,7 +360,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post in">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar2.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar2.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Ella Wong</a>
@@ -364,7 +369,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post out">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Bob Nilson</a>
@@ -373,7 +378,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post in">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar2.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar2.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Ella Wong</a>
@@ -382,7 +387,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post out">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Bob Nilson</a>
@@ -391,7 +396,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post in">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar2.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar2.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Ella Wong</a>
@@ -400,7 +405,7 @@ class IlluminateHeaderRepository implements HeaderRepositoryInterface
                                                 </div>
                                             </div>
                                             <div class="post out">
-                                                <img class="avatar" alt="" src="themes/metronic/rtl/assets/layouts/layout/img/avatar3.jpg" />
+                                                <img class="avatar" alt="" src="'.$this->themeSrc.'/assets/layouts/layout/img/avatar3.jpg" />
                                                 <div class="message">
                                                     <span class="arrow"></span>
                                                     <a href="javascript:;" class="name">Bob Nilson</a>

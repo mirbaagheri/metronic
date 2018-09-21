@@ -3,7 +3,6 @@
 namespace Mirbaagheri\Metronic\Load\Plugins;
 
 use Config;
-use InvalidArgumentException;
 
 
 class IlluminatePluginRepository implements PluginRepositoryInterface
@@ -17,12 +16,11 @@ class IlluminatePluginRepository implements PluginRepositoryInterface
     private $config;
     private $dataBase;
     private $app;
-    private $name;
     private $type;
 
     private function setLocationStart()
     {
-        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['pageDirection'];
+        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'];
     }
 
     private function loadConfig()

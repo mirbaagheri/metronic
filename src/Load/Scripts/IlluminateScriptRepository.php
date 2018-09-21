@@ -3,7 +3,6 @@
 namespace Mirbaagheri\Metronic\Load\Scripts;
 
 use Config;
-use InvalidArgumentException;
 
 
 class IlluminateScriptRepository implements ScriptRepositoryInterface
@@ -19,7 +18,7 @@ class IlluminateScriptRepository implements ScriptRepositoryInterface
 
     private function setLocationStart()
     {
-        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['pageDirection'];
+        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'];
     }
 
     private function loadConfig()

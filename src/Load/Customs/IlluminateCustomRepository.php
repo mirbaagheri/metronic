@@ -18,7 +18,7 @@ class IlluminateCustomRepository implements CustomRepositoryInterface
 
     private function setLocationStart()
     {
-        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['pageDirection'].'/assets/customs';
+        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'].'/assets/customs';
     }
 
     private function loadConfig()

@@ -29,6 +29,8 @@ return [
 
     'themeName'         => 'metronic',
 
+    'themeVersion'      => '4.6.0',
+
     'pluginsLocation'   => 'assets/global/plugins',
 
     'layoutsLocation'   => 'assets/layouts',

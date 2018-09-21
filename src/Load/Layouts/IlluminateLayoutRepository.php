@@ -25,7 +25,7 @@ class IlluminateLayoutRepository implements LayoutRepositoryInterface
 
     private function setLocationStart()
     {
-        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['pageDirection'];
+        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'];
     }
 
     private function loadConfig()
