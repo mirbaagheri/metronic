@@ -9,13 +9,11 @@
     "authors": [
         {
             "name": "Sayed Mostafa Mirbagheri",
-            "email": "mostafa.miri65@yahoo.com"
+            "email": "mostafa.mirii65@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0"
-    },
-    "require-dev": {
     },
     "autoload": {
         "psr-4": {
