@@ -1,0 +1,5180 @@
+{
+  "plugins": {
+    "bootstrap3-dialog": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap3-dialog",
+                "dist",
+                "css",
+                "bootstrap-dialog.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap3-dialog",
+                "dist",
+                "js",
+                "bootstrap-dialog.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "simple-line-icons": {
+      "head": {
+        "GLOBAL MANDATORY STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "simple-line-icons",
+                "simple-line-icons.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap": {
+      "head": {
+        "GLOBAL MANDATORY STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap",
+                "css",
+                "bootstrap-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap",
+                "js",
+                "bootstrap.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-switch": {
+      "head": {
+        "GLOBAL MANDATORY STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-switch",
+                "css",
+                "bootstrap-switch-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-switch",
+                "js",
+                "bootstrap-switch.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "fullcalendar": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "fullcalendar",
+                "fullcalendar.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "fullcalendar",
+                "fullcalendar.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-slimscroll": {
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-slimscroll",
+                "jquery.slimscroll.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-ui": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-ui",
+                "jquery-ui.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "font-awesome": {
+      "head": {
+        "GLOBAL MANDATORY STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "font-awesome",
+                "css",
+                "font-awesome.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "fancybox": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "fancybox",
+                "source",
+                "jquery.fancybox.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "fancybox",
+                "source",
+                "jquery.fancybox.pack.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-wysihtml5": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-wysihtml5",
+                "bootstrap-wysihtml5-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-wysihtml5",
+                "wysihtml5-0.3.0.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-wysihtml5",
+                "bootstrap-wysihtml5.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-file-upload": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "blueimp-gallery",
+                "blueimp-gallery.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "css",
+                "jquery.fileupload.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "css",
+                "jquery.fileupload-ui.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "vendor",
+                "jquery.ui.widget.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "vendor",
+                "tmpl.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "vendor",
+                "load-image.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "vendor",
+                "canvas-to-blob.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "blueimp-gallery",
+                "jquery.blueimp-gallery.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.iframe-transport.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-process.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-image.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-audio.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-video.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-validate.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-file-upload",
+                "js",
+                "jquery.fileupload-ui.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-fileinput": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-fileinput",
+                "bootstrap-fileinput.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-fileinput",
+                "bootstrap-fileinput.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "datatables": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "datatables",
+                "datatables.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "datatables",
+                "plugins",
+                "bootstrap",
+                "datatables.bootstrap-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "datatables",
+                "datatables.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "datatables",
+                "plugins",
+                "bootstrap",
+                "datatables.bootstrap.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-datepicker": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-datepicker",
+                "css",
+                "bootstrap-datepicker3.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-datepicker",
+                "js",
+                "bootstrap-datepicker.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "select2": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "select2",
+                "css",
+                "select2.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "select2",
+                "css",
+                "select2-bootstrap.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "select2",
+                "js",
+                "select2.full.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-multi-select": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-multi-select",
+                "css",
+                "multi-select-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-multi-select",
+                "js",
+                "jquery.multi-select.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "amcharts": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "amcharts.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "serial.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "pie.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "radar.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "themes",
+                "light.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "themes",
+                "patterns.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amcharts",
+                "themes",
+                "chalk.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "ammap",
+                "ammap.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "ammap",
+                "maps",
+                "js",
+                "worldLow.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "amcharts",
+                "amstockcharts",
+                "amstock.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "echarts": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "echarts",
+                "echarts.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "flot": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.resize.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.categories.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.pie.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.stack.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.crosshair.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "flot",
+                "jquery.flot.axislabels.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "flowchart": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "flowchart",
+                "flowchart.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "highcharts": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "highcharts",
+                "js",
+                "highcharts.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "highcharts",
+                "js",
+                "highcharts-3d.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "highcharts",
+                "js",
+                "highcharts-more.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "highmaps": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "highmaps",
+                "js",
+                "modules",
+                "data.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "highmaps",
+                "js",
+                "modules",
+                "map.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "highstock": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "highstock",
+                "js",
+                "highstock.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "morris": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "morris",
+                "morris.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "morris",
+                "morris.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "morris",
+                "raphael-min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-maxlength": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-maxlength",
+                "bootstrap-maxlength.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-select": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-select",
+                "css",
+                "bootstrap-select-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-select",
+                "js",
+                "bootstrap-select.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-selectsplitter": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-selectsplitter",
+                "bootstrap-selectsplitter.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-tagsinput": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-tagsinput",
+                "bootstrap-tagsinput.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-tagsinput",
+                "bootstrap-tagsinput.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "typeahead": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "typeahead",
+                "typeahead.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "typeahead",
+                "handlebars.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "typeahead",
+                "typeahead.bundle.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-touchspin": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-touchspin",
+                "bootstrap.touchspin.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-touchspin",
+                "bootstrap.touchspin.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "fuelux": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "fuelux",
+                "js",
+                "spinner.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "codemirror": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "codemirror",
+                "lib",
+                "codemirror.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "codemirror",
+                "theme",
+                "neat.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "codemirror",
+                "theme",
+                "ambiance.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "codemirror",
+                "theme",
+                "material.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "codemirror",
+                "theme",
+                "neo.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "codemirror",
+                "lib",
+                "codemirror.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "codemirror",
+                "mode",
+                "javascript",
+                "javascript.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "codemirror",
+                "mode",
+                "htmlmixed",
+                "htmlmixed.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "codemirror",
+                "mode",
+                "css",
+                "css.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-colorpicker": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-colorpicker",
+                "css",
+                "colorpicker.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-colorpicker",
+                "js",
+                "bootstrap-colorpicker.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-minicolors": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-minicolors",
+                "jquery.minicolors.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-minicolors",
+                "jquery.minicolors.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-contextmenu": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-contextmenu",
+                "bootstrap-contextmenu.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-daterangepicker": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-daterangepicker",
+                "daterangepicker.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-daterangepicker",
+                "daterangepicker.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-timepicker": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-timepicker",
+                "css",
+                "bootstrap-timepicker.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-timepicker",
+                "js",
+                "bootstrap-timepicker.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-datetimepicker": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-datetimepicker",
+                "css",
+                "bootstrap-datetimepicker.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-datetimepicker",
+                "js",
+                "bootstrap-datetimepicker.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "clockface": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "clockface",
+                "css",
+                "clockface.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "clockface",
+                "js",
+                "clockface.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-markdown": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-markdown",
+                "css",
+                "bootstrap-markdown.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-markdown",
+                "lib",
+                "markdown.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-markdown",
+                "js",
+                "bootstrap-markdown.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-summernote": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-summernote",
+                "summernote.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-summernote",
+                "summernote.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ckeditor": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "ckeditor",
+                "ckeditor.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-pwstrength": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-pwstrength",
+                "pwstrength-bootstrap.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "autosize": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "autosize",
+                "autosize.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ion.rangeslider": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "ion.rangeslider",
+                "css",
+                "ion.rangeSlider.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "ion.rangeslider",
+                "css",
+                "ion.rangeSlider.skinFlat.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "ion.rangeslider",
+                "js",
+                "ion.rangeSlider.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-knob": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-knob",
+                "js",
+                "jquery.knob.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "nouislider": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "nouislider",
+                "nouislider.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "nouislider",
+                "nouislider.pips.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "nouislider",
+                "wNumb.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "nouislider",
+                "nouislider.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jqvmap": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "jqvmap.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "jquery.vmap.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "maps",
+                "jquery.vmap.russia.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "maps",
+                "jquery.vmap.world.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "maps",
+                "jquery.vmap.europe.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "maps",
+                "jquery.vmap.germany.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "maps",
+                "jquery.vmap.usa.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jqvmap",
+                "jqvmap",
+                "data",
+                "jquery.vmap.sampledata.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "counterup": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "counterup",
+                "jquery.waypoints.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "counterup",
+                "jquery.counterup.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "horizontal-timeline": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "horizontal-timeline",
+                "horozontal-timeline.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-easypiechart": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-easypiechart",
+                "jquery.easypiechart.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "plupload": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "plupload",
+                "js",
+                "plupload.full.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "dropzone": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "dropzone",
+                "dropzone.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "dropzone",
+                "basic.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "dropzone",
+                "dropzone.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-editable": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-editable",
+                "bootstrap-editable",
+                "css",
+                "bootstrap-editable-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-editable",
+                "inputs-ext",
+                "address",
+                "address.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-editable",
+                "bootstrap-editable",
+                "js",
+                "bootstrap-editable.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-editable",
+                "inputs-ext",
+                "address",
+                "address.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-editable",
+                "inputs-ext",
+                "wysihtml5",
+                "wysihtml5.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-typeahead": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-typeahead",
+                "bootstrap3-typeahead.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "icheck": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "icheck",
+                "skins",
+                "all.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "icheck",
+                "icheck.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jcrop": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jcrop",
+                "css",
+                "jquery.Jcrop.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jcrop",
+                "js",
+                "jquery.color.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jcrop",
+                "js",
+                "jquery.Jcrop.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-inputmask": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-inputmask",
+                "jquery.inputmask.bundle.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-validation": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-validation",
+                "js",
+                "jquery.validate.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-validation",
+                "js",
+                "additional-methods.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-wizard": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-wizard",
+                "jquery.bootstrap.wizard.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "gmaps": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "gmaps",
+                "gmaps.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-cookiebar": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-cookiebar",
+                "jquery.cookieBar.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "cubeportfolio": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "cubeportfolio",
+                "css",
+                "cubeportfolio.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "cubeportfolio",
+                "js",
+                "jquery.cubeportfolio.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "countdown": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "countdown",
+                "jquery.countdown.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "backstretch": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "backstretch",
+                "jquery.backstretch.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-notific8": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-notific8",
+                "jquery.notific8.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-notific8",
+                "jquery.notific8.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-toastr": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-toastr",
+                "2.1.3",
+                "build",
+                "toastr.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-toastr",
+                "2.1.3",
+                "build",
+                "toastr.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-table": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-table",
+                "bootstrap-table.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-table",
+                "bootstrap-table.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootbox": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootbox",
+                "bootbox.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-growl": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-growl",
+                "jquery.bootstrap-growl.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ladda": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "ladda",
+                "ladda-themeless.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "ladda",
+                "spin.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "ladda",
+                "ladda.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-confirmation": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-confirmation",
+                "bootstrap-confirmation.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-datepaginator": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-datepaginator",
+                "bootstrap-datepaginator.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-datepaginator",
+                "bootstrap-datepaginator-rtl.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-modal": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-modal",
+                "css",
+                "bootstrap-modal-bs3patch.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "bootstrap-modal",
+                "css",
+                "bootstrap-modal.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-modal",
+                "js",
+                "bootstrap-modalmanager.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-modal",
+                "js",
+                "bootstrap-modal.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-bootpag": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-bootpag",
+                "jquery.bootpag.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-idle-timeout": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-idle-timeout",
+                "jquery.idletimeout.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-idle-timeout",
+                "jquery.idletimer.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery-nestable": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jquery-nestable",
+                "jquery.nestable.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery-nestable",
+                "jquery.nestable-rtl.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "pace": {
+      "head": {
+        "PAGE FIRST SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "pace",
+                "pace.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        },
+        "PAGE TOP STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "pace",
+                "themes",
+                "pace-theme-flash-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/global/plugins",
+                "pace",
+                "themes",
+                "pace-theme-big-counter-rtl.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-sessiontimeout": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-sessiontimeout",
+                "bootstrap-session-timeout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "socicon": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "socicon",
+                "socicon.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "bootstrap-tabdrop": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "bootstrap-tabdrop",
+                "js",
+                "bootstrap-tabdrop.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jstree": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "jstree",
+                "dist",
+                "themes",
+                "default",
+                "style.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jstree",
+                "dist",
+                "jstree.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "mapplic": {
+      "head": {
+        "PAGE LEVEL PLUGINS": {
+          "link": [
+            {
+              "href": [
+                "assets/global/plugins",
+                "mapplic",
+                "mapplic",
+                "mapplic.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "mapplic",
+                "js",
+                "hammer.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "mapplic",
+                "js",
+                "jquery.easing.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "mapplic",
+                "js",
+                "jquery.mousewheel.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/global/plugins",
+                "mapplic",
+                "mapplic",
+                "mapplic.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery": {
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "js.cookie": {
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "js.cookie.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery.blockui": {
+      "body": {
+        "CORE PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.blockui.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "moment": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "moment.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery.sparkline": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.sparkline.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "raphael": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "raphael.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery.mockjax": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.mockjax.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery.input-ip-address-control-1.0": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.input-ip-address-control-1.0.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "jquery.pulsate": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "jquery.pulsate.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "holder": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/plugins",
+                "holder.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "styles": {
+    "components-rtl": {
+      "head": {
+        "THEME GLOBAL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/css",
+                "components-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "id": "style_components",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "plugins-rtl": {
+      "head": {
+        "THEME GLOBAL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/css",
+                "plugins-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "inbox-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/apps/css",
+                "inbox-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "profile-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "profile-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "ticket-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/apps/css",
+                "ticket-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "todo-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/apps/css",
+                "todo-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "todo-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/apps/css",
+                "todo-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "image-crop-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "image-crop-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "about-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "about-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "blog-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "blog-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "contact-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "contact-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "faq-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "faq-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "invoice-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "invoice-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "invoice-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "invoice-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "portfolio-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "portfolio-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "pricing-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "pricing-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "pricing-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "pricing-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "search-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "search-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "error-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "error-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "coming-soon-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "coming-soon-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "lock-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "lock-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "lock-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "lock-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "login-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "login-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "login-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "login-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "login-3-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "login-3-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "login-4-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "login-4-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "login-5-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "login-5-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "profile-2-rtl": {
+      "head": {
+        "PAGE LEVEL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/pages/css",
+                "profile-2-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "components-md-rtl": {
+      "head": {
+        "THEME GLOBAL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/css",
+                "components-md-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "id": "style_components",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "plugins-md-rtl": {
+      "head": {
+        "THEME GLOBAL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/css",
+                "plugins-md-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    },
+    "components-rounded-rtl": {
+      "head": {
+        "THEME GLOBAL STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/global/css",
+                "components-rounded-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "id": "style_components",
+              "type": "text/css"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "layouts": {
+    "layout": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout",
+                "css",
+                "themes",
+                "darkblue-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css",
+              "id": "style_color"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/layouts",
+                "layout",
+                "scripts",
+                "demo.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout2": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout2",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout2",
+                "css",
+                "themes",
+                "blue-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css",
+              "id": "style_color"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout2",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout2",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/layouts",
+                "layout2",
+                "scripts",
+                "demo.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout3": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout3",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout3",
+                "css",
+                "themes",
+                "default-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css",
+              "id": "style_color"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout3",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout3",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/layouts",
+                "layout3",
+                "scripts",
+                "demo.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout4": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout4",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout4",
+                "css",
+                "themes",
+                "default-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css",
+              "id": "style_color"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout4",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout4",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            },
+            {
+              "src": [
+                "assets/layouts",
+                "layout4",
+                "scripts",
+                "demo.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout5": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout5",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout5",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout5",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout6": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout6",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout6",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout6",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "layout7": {
+      "head": {
+        "THEME LAYOUT STYLES": {
+          "link": [
+            {
+              "href": [
+                "assets/layouts",
+                "layout7",
+                "css",
+                "layout-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            },
+            {
+              "href": [
+                "assets/layouts",
+                "layout7",
+                "css",
+                "custom-rtl.min.css"
+              ],
+              "rel": "stylesheet",
+              "type": "text/css"
+            }
+          ]
+        }
+      },
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts",
+                "layout7",
+                "scripts",
+                "layout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "app": {
+      "body": {
+        "THEME GLOBAL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/scripts",
+                "app.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "calendar": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/apps/scripts",
+                "calendar.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "quick-sidebar": {
+      "body": {
+        "THEME LAYOUT SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts/global/scripts",
+                "quick-sidebar.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "inbox": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/apps/scripts",
+                "inbox.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "datatable": {
+      "body": {
+        "PAGE LEVEL PLUGINS": {
+          "script": [
+            {
+              "src": [
+                "assets/global/scripts",
+                "datatable.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "profile": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "profile.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-managed": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-managed.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-date-time-pickers": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-date-time-pickers.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "todo": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/apps/scripts",
+                "todo.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "todo-2": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/apps/scripts",
+                "todo-2.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-amcharts": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-amcharts.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-echarts": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-echarts.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-flotcharts": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-flotcharts.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-flowchart": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-flowchart.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-google": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-google.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-highcharts": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-highcharts.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-highmaps": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-highmaps.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-highstock": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-highstock.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "charts-morris": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "charts-morris.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-maxlength": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-maxlength.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-select": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-select.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-select-splitter": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-select-splitter.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-switch": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-switch.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-tagsinput": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-tagsinput.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-bootstrap-touchspin": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-bootstrap-touchspin.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-code-editors": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-code-editors.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-color-pickers": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-color-pickers.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-context-menu": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-context-menu.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-editors": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-editors.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-form-tools": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-form-tools.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-ion-sliders": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-ion-sliders.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-knob-dials": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-knob-dials.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-multi-select": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-multi-select.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-nouisliders": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-nouisliders.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-select2": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-select2.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "components-typeahead": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "components-typeahead.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "dashboard": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "dashboard.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ecommerce-dashboard": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ecommerce-dashboard.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ecommerce-orders": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ecommerce-orders.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ecommerce-orders-view": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ecommerce-orders-view.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ecommerce-products": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ecommerce-products.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ecommerce-products-edit": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ecommerce-products-edit.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-dropzone": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-dropzone.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-editable": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-editable.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-fileupload": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-fileupload.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-icheck": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-icheck.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-image-crop": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-image-crop.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-input-mask": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-input-mask.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-samples": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-samples.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-validation": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-validation.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-validation-md": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-validation-md.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "form-wizard": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "form-wizard.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "maps-google": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "maps-google.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "maps-vector": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "maps-vector.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "cookie-consent": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/layouts/global/scripts",
+                "cookie-consent.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "contact": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "contact.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portfolio-1": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portfolio-1.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portfolio-2": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portfolio-2.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portfolio-3": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portfolio-3.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portfolio-4": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portfolio-4.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "search": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "search.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "coming-soon": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "coming-soon.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "lock": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "lock.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "lock-2": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "lock-2.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "login": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "login.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "login-4": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "login-4.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "login-5": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "login-5.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "timeline": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "timeline.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portlet-ajax": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portlet-ajax.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "portlet-draggable": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "portlet-draggable.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-bootstrap": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-bootstrap.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-ajax": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-ajax.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-buttons": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-buttons.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-colreorder": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-colreorder.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-editable": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-editable.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-fixedheader": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-fixedheader.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-responsive": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-responsive.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-rowreorder": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-rowreorder.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "table-datatables-scroller": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "table-datatables-scroller.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-alerts-api": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-alerts-api.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-blockui": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-blockui.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-bootbox": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-bootbox.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-bootstrap-growl": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-bootstrap-growl.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-buttons": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-buttons.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-confirmations": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-confirmations.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-datepaginator": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-datepaginator.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-extended-modals": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-extended-modals.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-general": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-general.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-idletimeout": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-idletimeout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-modals": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-modals.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-nestable": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-nestable.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-notific8": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-notific8.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-session-timeout": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-session-timeout.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-toastr": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-toastr.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    },
+    "ui-tree": {
+      "body": {
+        "PAGE LEVEL SCRIPTS": {
+          "script": [
+            {
+              "src": [
+                "assets/pages/scripts",
+                "ui-tree.min.js"
+              ],
+              "type": "text/javascript"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
