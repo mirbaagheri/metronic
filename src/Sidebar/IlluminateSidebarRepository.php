@@ -10,10 +10,8 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 	public $Activate			= "Dashboard";
 	public $items				= NULL;
 	public $SearchHtml;
+    	private $Toggler;
 
-	public function __construct()
-		{
-		}
 
 	// Disable OR Enable Search Area
 	public function search($value)
@@ -38,7 +36,7 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 		// DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
 		// DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
 		// DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-		// DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+		// DOC: Set data-keep-expand="true" to keep the submenus expanded -->
 		// DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 	}
 
@@ -104,7 +102,7 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
 					<!-- DOC: Apply "sidebar-search-bordered" class the below search form to have bordered search box -->
 					<!-- DOC: Apply "sidebar-search-bordered sidebar-search-solid" class the below search form to have bordered & solid search box -->
-					<form class="sidebar-search  " action="page_general_search_3.html" method="POST">
+					<form class="sidebar-search  " action="/" method="POST">
 						<a href="javascript:;" class="remove">
 							<i class="icon-close"></i>
 						</a>
@@ -119,6 +117,7 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
 					</form>
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>';
+	 return '';
 	}
 
 	public function Render()
@@ -146,4 +145,3 @@ class IlluminateSidebarRepository implements SidebarRepositoryInterface
                 <!-- END SIDEBAR -->';
 	}
 }
-?>

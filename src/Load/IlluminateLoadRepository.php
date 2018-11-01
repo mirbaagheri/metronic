@@ -42,7 +42,7 @@ class IlluminateLoadRepository implements LoadRepositoryInterface
         $this->config = Config::get('mirbaagheri.metronic');
     }
 
-    private function loadDatabase($src = 'MetronicPackage/STEP6-Publish.json')
+    private function loadDatabase($src = 'themes/metronic/4.6.0/database.json')
     {
         $this->app->load->dataBase = json_decode(File::get($src),true);
     }

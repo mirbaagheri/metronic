@@ -1,4 +1,3 @@
-NOTE: This package is not completed yet. it is in laboratory enviroment. We'll complete it as soon...
 composer require mirbaagheri/metronic
 
 Add 'Mirbaagheri\Metronic\Laravel\MetronicServiceProvider::class' to app providers.
