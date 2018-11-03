@@ -38,6 +38,9 @@ class MetronicServiceProvider extends ServiceProvider
     {
         $config = realpath(__DIR__ . '/../config/config.php');
         $this->mergeConfigFrom($config, 'mirbaagheri.metronic');
+        $this->publishes([
+            $config => config_path('mirbaagheri.metronic.php'),
+        ], 'config');
     }
 
     protected function registerConfig()
