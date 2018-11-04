@@ -2,37 +2,36 @@
 
 namespace Mirbaagheri\Metronic\Load\Plugins;
 
-use Config;
-
-
 class IlluminatePluginRepository implements PluginRepositoryInterface
 {
+
+    public $locationStart;
 
     protected $data = [];
     protected $blockName;
     protected $blockStart;
     protected $blockEnd;
+    protected $config;
 
-    private $config;
     private $dataBase;
     private $app;
     private $type;
 
-    private function setLocationStart()
+    public function __construct($config = null)
     {
-        $this->locationStart = 'themes/'. $this->config['themeName']. '/'. $this->config['themeVersion']. '/'. $this->config['pageDirection'];
+        if (isset($config)) {
+            $this->config = $config;
+        }
     }
 
-    private function loadConfig()
+    private function setLocationStart()
     {
-        $this->config = Config::get('mirbaagheri.metronic');
+        $this->locationStart = $this->config['location'];
     }
 
     public function load($type,$name,$app)
     {
-        $this->loadConfig();
         $this->app = $app;
-        //$this->name = $name;
         $this->type = $type;
         $this->setLocationStart();
         $this->dataBase = $this->app->load->dataBase['plugins'];

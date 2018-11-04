@@ -3,26 +3,26 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Users
-    |--------------------------------------------------------------------------
-    |
-    | Please provide the user model used in Sentinel.
-    |
-    */
+    'scripts' => [
+
+    ],
+
+    'plugins' => [
+
+        'location'  => 'assets/plugins'
+    ],
 
     'css' => [
 
         'blocks' => [
 
-            'GLOBAL MANDATORY STYLES'   => 'themes/metronic/rtl/assets/global/plugins',
+            'GLOBAL MANDATORY STYLES'   => 'assets/plugins',
 
             'THEME GLOBAL STYLES'       => 'themes/metronic/rtl/assets/global/css',
 
             'THEME LAYOUT STYLES'       => 'themes/metronic/rtl/assets/layouts',
 
-            'PAGE LEVEL PLUGINS'        => 'themes/metronic/rtl/assets/global/plugins',
+            'PAGE LEVEL PLUGINS'        => 'assets/plugins',
         ],
 
     ],
@@ -31,7 +31,7 @@ return [
 
     'themeVersion'      => '4.6.0',
 
-    'pluginsLocation'   => 'assets/global/plugins',
+    'pluginsLocation'   => 'assets/plugins',
 
     'layoutsLocation'   => 'assets/layouts',
 

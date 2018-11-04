@@ -55,7 +55,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerSidebar()
     {
         $this->app->singleton('metronic.sidebar', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.sidebar');
             $sidebar = new IlluminateSidebarRepository($config);
             return $sidebar;
         });
@@ -64,7 +64,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerHeader()
     {
         $this->app->singleton('metronic.header', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.header');
             $header = new IlluminateHeaderRepository($config);
             return $header;
         });
@@ -73,7 +73,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerLoad()
     {
         $this->app->singleton('metronic.load', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.load');
             $load = new IlluminateLoadRepository($config);
             return $load;
         });
@@ -82,7 +82,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerRender()
     {
         $this->app->singleton('metronic.render', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.render');
             $render = new IlluminateRenderRepository($config);
             return $render;
         });
@@ -91,7 +91,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerLayouts()
     {
         $this->app->singleton('metronic.layout', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.layouts');
             $layout = new IlluminateLayoutRepository($config);
             return $layout;
         });
@@ -100,7 +100,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerPlugins()
     {
         $this->app->singleton('metronic.plugin', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.plugins');
             $plugin = new IlluminatePluginRepository($config);
             return $plugin;
         });
@@ -109,7 +109,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerScripts()
     {
         $this->app->singleton('metronic.script', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.scripts');
             $script = new IlluminateScriptRepository($config);
             return $script;
         });
@@ -118,7 +118,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerStyles()
     {
         $this->app->singleton('metronic.style', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.styles');
             $style = new IlluminateStyleRepository($config);
             return $style;
         });
@@ -127,7 +127,7 @@ class MetronicServiceProvider extends ServiceProvider
     protected function registerCustoms()
     {
         $this->app->singleton('metronic.custom', function ($app) {
-            $config = $app['config']->get('mirbaagheri.metronic');
+            $config = $app['config']->get('mirbaagheri.metronic.custom');
             $custom = new IlluminateCustomRepository($config);
             return $custom;
         });
