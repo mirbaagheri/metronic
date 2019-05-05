@@ -41,6 +41,11 @@ class MetronicServiceProvider extends ServiceProvider
         $this->publishes([
             $config => config_path('mirbaagheri.metronic.php'),
         ], 'config');
+
+        $database = realpath(__DIR__ . '/../../resources/public');
+        $this->publishes([
+            $database => public_path(''),
+        ], 'public');
     }
 
     protected function registerConfig()
