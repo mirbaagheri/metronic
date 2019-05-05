@@ -10,14 +10,14 @@ Installation instructions :
 
 2. Add bellow line to `config/app.php` in section `providers`:
 ````
-'Mirbaagheri\Metronic\Laravel\MetronicServiceProvider::class'
+Mirbaagheri\Metronic\Laravel\MetronicServiceProvider::class
 ````
 
 3. Add bellow lines to `config/app.php` in section `aliases`:
 ````
-'Metronic'      => Mirbaagheri\Metronic\Laravel\Facades\Metronic::class
-'Sidebar'       => Mirbaagheri\Metronic\Laravel\Facades\Sidebar::class
-'PageHeader'    => Mirbaagheri\Metronic\Laravel\Facades\Header::class
+'Metronic'      => Mirbaagheri\Metronic\Laravel\Facades\Metronic::class,
+'Sidebar'       => Mirbaagheri\Metronic\Laravel\Facades\Sidebar::class,
+'PageHeader'    => Mirbaagheri\Metronic\Laravel\Facades\Header::class,
 ````
 
 Publish config :
