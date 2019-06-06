@@ -62,7 +62,7 @@ class IlluminateRenderRepository implements RenderRepositoryInterface
                 $tag = "<script ".$this->makeTag($value)."> </script>";
                 return $tag;
             }
-            throw new InvalidArgumentException("script src is not valid.");
+            throw new InvalidArgumentException("script src($value[src]) is not valid.");
         }
         throw new InvalidArgumentException("Script must have href value!");
     }
